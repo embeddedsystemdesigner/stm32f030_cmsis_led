@@ -1,0 +1,65 @@
+Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f030.s)(0x559D11BE)(--cpu Cortex-M0 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx--pd "__UVISION_VERSION SETA 523"--list .\listings\startup_stm32f030.lst --xref -o .\objects\startup_stm32f030.o --depend .\objects\startup_stm32f030.d)
+F (.\system_stm32f0xx.c)(0x559D0854)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I ..\stm32f030_cmsis_led-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx-D__UVISION_VERSION="523" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x624A874C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x559D1228)
+I (..\stm32f030_cmsis_led\stm32f0xx_conf.h)(0x59B105DA)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x4FB61372)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x4FB61372)
+F (.\main.c)(0x624A9E72)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I ..\stm32f030_cmsis_led-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx-D__UVISION_VERSION="523" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x624A874C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x559D1228)
+I (..\stm32f030_cmsis_led\stm32f0xx_conf.h)(0x59B105DA)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x4FB61372)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x4FB61372)
+I (clock.h)(0x624A9E2E)
+F (.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x4FB61374)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I ..\stm32f030_cmsis_led-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx-D__UVISION_VERSION="523" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x4FB61372)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x624A874C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x559D1228)
+I (..\stm32f030_cmsis_led\stm32f0xx_conf.h)(0x59B105DA)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x4FB61372)
+F (.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x4FB61375)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I ..\stm32f030_cmsis_led-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx-D__UVISION_VERSION="523" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x4FB61372)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x624A874C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x559D1228)
+I (..\stm32f030_cmsis_led\stm32f0xx_conf.h)(0x59B105DA)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x4FB61372)
+F (.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_tim.c)(0x4FB61376)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I ..\stm32f030_cmsis_led-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx-D__UVISION_VERSION="523" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\objects\stm32f0xx_tim.o --omf_browse .\objects\stm32f0xx_tim.crf --depend .\objects\stm32f0xx_tim.d)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x4FB61373)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x624A874C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x559D1228)
+I (..\stm32f030_cmsis_led\stm32f0xx_conf.h)(0x59B105DA)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x4FB61372)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x4FB61372)
+F (.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_adc.c)(0x4FB61373)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\STM32F0xx_StdPeriph_Driver\inc -I ..\stm32f030_cmsis_led-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\ST\STM32F0xx-D__UVISION_VERSION="523" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\objects\stm32f0xx_adc.o --omf_browse .\objects\stm32f0xx_adc.crf --depend .\objects\stm32f0xx_adc.d)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x4FB61371)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\stm32f0xx.h)(0x624A874C)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F64600)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D1CD2)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F0xx\system_stm32f0xx.h)(0x559D1228)
+I (..\stm32f030_cmsis_led\stm32f0xx_conf.h)(0x59B105DA)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x4FB61372)
+I (.\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x4FB61372)
