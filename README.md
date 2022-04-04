@@ -3,3 +3,6 @@
 
 in this project 8 leds flash turn on after each other and then turn off after each other 
 this program is written in c language  and used cmsis in it
+
+
+the compiler i used is keil version 5.23
